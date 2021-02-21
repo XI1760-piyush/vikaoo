@@ -1,0 +1,1 @@
+export const GET_PRODUCTS_START = 'GET_PRODUCTS_START'
