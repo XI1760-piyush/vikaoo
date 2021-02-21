@@ -12,7 +12,7 @@ export default function footer() {
 
   return (
     <footer >
-      <div className="container">
+      <div className="container paddingBt50">
         <div className="row row-30">
           <div className="col-md-4 col-xl-5">
             <div className="pr-xl-4"><a className="brand" href="index.html"><img className="logo" src="/assets/img/logo.png" alt="" width="100%" height="150" /></a>

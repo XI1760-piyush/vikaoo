@@ -4,7 +4,9 @@ import { Provider } from 'react-redux';
 import store from './store';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import 'toastr/build/toastr.min.css'
+import './reset.css';
 import './main.scss';
+
 
 class App extends Component {
   render() {

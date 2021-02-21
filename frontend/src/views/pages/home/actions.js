@@ -1,9 +1,9 @@
-import { FETCH_YML } from '../../../service/ApiLinks';
+import { GET_PRODUCTS_START } from './constant';
 
 
 
-export const fetchYml = () => ({
-  type: FETCH_YML,
-  payload: {}
+export const getProducts = (data) => ({
+  type: GET_PRODUCTS_START,
+  payload: data
 })
 
